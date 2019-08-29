@@ -1,1 +1,31 @@
-body {}
+  body {
+        background-image: url(https://cdn.shortpixel.ai/client/q_lossy,ret_img,w_768/http://all-funny.info/wp-content/uploads/2019/01/Cats-can-be-your-ticket-to-Mars-1-768x432.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+
+        }
+.text {
+  font-size: 35px; 
+  text-align:center; 
+  color: #FFFFFF;
+  }
+
+.btn {
+  position: fixed;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-size: 19px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: red;
+  color: black ;
+}
